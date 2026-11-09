@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Découvrez comment la chaleur des groupes froids est réutilisée au spa d’Ottrott et retrouvez le détail du calcul de l’affiche.">
+<title>Pour les plus curieux · Spa d’Ottrott</title>
+<style>
+:root{color-scheme:light;--ink:#253731;--muted:#56645c;--paper:#f7f3eb;--white:#fffcf6;--green:#1e5148;--line:#e1d9ca;--warm:#a24429;--cold:#245c77}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.6 system-ui,sans-serif}main{max-width:880px;margin:auto;padding:0 22px 42px}.hero{padding:56px 0 30px}.label{font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.72rem;color:var(--green)}h1,h2{font-family:Georgia,serif;line-height:1.08;margin:10px 0 16px}h1{font-size:clamp(2.5rem,7vw,4.7rem);letter-spacing:-.045em}h2{font-size:clamp(1.65rem,4vw,2.5rem);letter-spacing:-.025em}p{margin:.45em 0 1em}.intro{font-size:1.17rem;max-width:610px;color:var(--muted)}nav{display:flex;gap:10px;flex-wrap:wrap}a{color:var(--green);text-underline-offset:4px}nav a{display:inline-block;background:var(--white);border:1px solid var(--line);border-radius:99px;padding:8px 14px;font-size:.9rem;font-weight:650;text-decoration:none}a:focus-visible,summary:focus-visible{outline:3px solid var(--cold);outline-offset:4px}.card{background:var(--white);border:1px solid var(--line);border-radius:24px;padding:clamp(20px,5vw,36px);margin:0 0 18px}.flow{list-style:none;margin:18px 0 0;padding:0}.flow li{display:grid;grid-template-columns:46px 1fr;gap:14px;padding:16px 0;border-bottom:1px solid var(--line)}.flow li:last-child{border:0;padding-bottom:0}.num{width:40px;height:40px;display:grid;place-items:center;border-radius:50%;font-weight:750;background:#e4eef2;color:var(--cold)}.flow li:nth-child(n+2) .num{background:#f4e4d9;color:var(--warm)}h3{font-size:1.04rem;margin:0 0 4px}.flow p{margin:0;color:var(--muted)}.balance{background:#e9eee6;border-radius:12px;padding:12px 16px;margin-top:22px;font-size:.95rem}.figure{font-size:clamp(2.1rem,6vw,3.35rem);line-height:1.14;letter-spacing:-.035em;color:var(--green);font-weight:750;margin:.4em 0 .1em}.sub{color:var(--muted)}dl{margin:22px 0}.row{display:flex;justify-content:space-between;align-items:baseline;gap:14px;padding:9px 0;border-bottom:1px solid var(--line)}dt{color:var(--muted)}dd{margin:0;font-weight:700;text-align:right}details{border-top:1px solid var(--line);padding:13px 0}details:last-child{padding-bottom:0}summary{cursor:pointer;font-weight:700;color:var(--green)}details p{color:var(--muted);margin:.6em 0 0}.foot{padding:10px 0;color:var(--muted);font-size:.85rem}@media(max-width:420px){main{padding-inline:15px}.hero{padding-top:38px}.card{padding:20px}.row{font-size:.89rem}.flow li{gap:10px;grid-template-columns:38px 1fr}.num{width:34px;height:34px}}
+</style>
+</head>
+<body><main>
+<header class="hero">
+<div class="label">Spa d’Ottrott · L’énergie en coulisses</div>
+<h1>Pour les plus curieux</h1>
+<p class="intro">Les machines qui produisent du froid rejettent de la chaleur. À Ottrott, une partie de cette chaleur peut servir à chauffer l’eau et l’hôtel.</p>
+<nav aria-label="Dans cette page"><a href="#parcours">Suivre la chaleur</a><a href="#calcul">Comprendre les 48 000 €</a><a href="#details">Pour aller plus loin</a></nav>
+</header>
+<section class="card" id="parcours" aria-labelledby="titre-parcours">
+<h2 id="titre-parcours">Le voyage de la chaleur</h2>
+<ol class="flow">
+<li><span class="num" aria-hidden="true">1</span><div><h3>Le groupe froid refroidit</h3><p>Il retire de la chaleur à l’eau du circuit froid. Du côté chaud de la machine, cette chaleur ressort avec une partie de l’énergie consommée par le compresseur.</p></div></li>
+<li><span class="num" aria-hidden="true">2</span><div><h3>Une boucle d’eau transporte la chaleur</h3><p>Cette boucle récupère une partie de la chaleur rejetée et l’amène aux pompes à chaleur quand le bâtiment en a besoin. Le surplus peut être évacué vers l’extérieur.</p></div></li>
+<li><span class="num" aria-hidden="true">3</span><div><h3>Les pompes à chaleur élèvent la température</h3><p>Elles utilisent de l’électricité pour transférer cette chaleur vers une eau plus chaude, utile au chauffage de l’eau et du bâtiment.</p></div></li>
+<li><span class="num" aria-hidden="true">4</span><div><h3>Le bois apporte le complément</h3><p>Lorsque la récupération ne suffit pas, les chaudières bois peuvent compléter la chaleur disponible pour le réseau.</p></div></li>
+</ol>
+<div class="balance"><strong>À retenir</strong> · La chaleur fournie par les pompes à chaleur combine la chaleur récupérée et l’énergie consommée pour l’élever en température.</div>
+</section>
+<section class="card" id="calcul" aria-labelledby="titre-calcul">
+<h2 id="titre-calcul">D’où viennent les 48 000 € ?</h2>
+<p class="figure">48 000 € / an</p>
+<p class="sub">Valeur brute indicative de la chaleur fournie par les deux pompes à chaleur.</p>
+<dl>
+<div class="row"><dt>Puissance chaude nominale</dt><dd>2 × 75 kW = 150 kW</dd></div>
+<div class="row"><dt>Durée annuelle supposée</dt><dd>2 000 h équivalentes<br>à pleine puissance</dd></div>
+<div class="row"><dt>Valeur retenue pour un kWh de chaleur utile</dt><dd>0,16 €/kWh</dd></div>
+<div class="row"><dt>Valeur annuelle</dt><dd>150 × 2 000 × 0,16 = 48 000 €</dd></div>
+</dl>
+<details><summary>Que veut dire « heures équivalentes » ?</summary><p>On exprime l’énergie d’une année comme si les deux machines tournaient à pleine puissance pendant une durée donnée. Par exemple, deux heures à mi-puissance produisent autant qu’une heure à pleine puissance.</p></details>
+<details><summary>Comment connaître l’économie réelle ?</summary><p>Il faut mesurer la chaleur utile fournie et l’électricité des pompes à chaleur et des auxiliaires. On compare ensuite leur coût au coût de la chaleur qu’elles remplacent, par exemple celle produite au bois.</p></details>
+<details><summary>Quel lien avec le climat ?</summary><p>Réutiliser cette chaleur peut réduire le besoin de produire de la chaleur ailleurs. Pour chiffrer l’effet sur le climat, on compare les émissions de l’énergie utilisée pour la récupération à celles du chauffage qu’elle remplace.</p></details>
+</section>
+<section class="card" id="details" aria-labelledby="titre-details">
+<h2 id="titre-details">Pour aller plus loin</h2>
+<details><summary>Pourquoi des circulateurs à 30 % et à 100 % ?</summary>
+<p>Les circulateurs font avancer l’eau dans les tuyaux. Quand le besoin de chauffage est faible, le petit circulateur peut assurer environ 23 m³/h. Un grand circulateur est dimensionné pour 76,1 m³/h. Les pourcentages comparent ces deux débits.</p></details>
+<details><summary>Cette chaleur pourrait-elle préchauffer l’eau des douches ?</summary>
+<p>L’hôtel compte 64 chambres. En supposant 65 % d’occupation, 1,8 personne par chambre occupée et une douche de 40 L par personne, on arrive à environ 75 douches par jour.</p>
+<p>À la douche, on mélange de l’eau froide et de l’eau chaude. Dans ce scénario, il faudrait environ 2 m³ d’eau chaude par jour. Préchauffer cette eau de 10 à 40 °C avant l’appoint représenterait environ 25,4 MWh par an, soit 4 100 € de chaleur valorisée à 0,16 €/kWh si la récupération couvre tous les puisages retenus. Le calcul porte sur les douches des chambres.</p></details>
+</section>
+<footer class="foot">Spa d’Ottrott · Présentation pédagogique du principe de récupération. Les puissances sont issues de l’étude hydronique et la durée de fonctionnement est une hypothèse. <a href="https://www.classement.atout-france.fr/details-etablissement?_fr_atoutfrance_classementv2_portlet_facility_FacilityPortlet_facilityId=10091&amp;p_p_id=fr_atoutfrance_classementv2_portlet_facility_FacilityPortlet&amp;p_p_lifecycle=0">Capacité de l’hôtel selon Atout France</a>.</footer>
+</main></body></html>
